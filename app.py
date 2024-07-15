@@ -4,7 +4,12 @@ import tensorflow
 from PIL import Image
 import numpy as np
 
-model = tensorflow.keras.models.load_model("digit_recognition.h5")
+@st.cache_resource
+def load_model():
+    model = tf.keras.models.load_model("digit_recognition.h5")
+    return model
+
+model = load_model()
 
 def preprocess_image(image):
     image = image.convert('L')
