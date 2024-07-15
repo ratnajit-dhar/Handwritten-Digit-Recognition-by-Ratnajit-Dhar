@@ -33,7 +33,7 @@ st.sidebar.markdown("[Facebook](https://www.facebook.com/RatnajitDharPrantar/)")
 st.sidebar.markdown("[LinkedIn](https://www.linkedin.com/in/ratnajit-dhar/)")
 st.sidebar.markdown("[Github](https://github.com/ratnajit-dhar)")
 st.sidebar.title("Github Repo for this Project")
-st.sidebar.markdown("[Handwritten-Digit-Recognition-by-Ratnajit-Dhar](https://github.com/ratnajit-dhar/ratnajit-dhar-Handwritten-Digit-Recognition.git)")
+st.sidebar.markdown("[Handwritten-Digit-Recognition-by-Ratnajit-Dhar](https://github.com/ratnajit-dhar/Handwritten-Digit-Recognition-by-Ratnajit-Dhar)")
 
 drawing_mode = "freedraw"
 
