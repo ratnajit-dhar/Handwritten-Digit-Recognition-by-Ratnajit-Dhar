@@ -6,7 +6,7 @@ import numpy as np
 
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model("digit_recognition.h5")
+    model = tensorflow.keras.models.load_model("digit_recognition.h5")
     return model
 
 model = load_model()
